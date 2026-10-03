@@ -1,0 +1,90 @@
+
+/* =========================
+   CLEARPAY COLOR TOKENS
+========================= */
+
+:root {
+  --color-primary: #102F15;
+  --color-primary-dark: #0A1F0D;
+  --color-secondary: #728C5A;
+  --color-accent: #EAF1B1;
+
+  --color-background: #EBFADC;
+  --color-surface: #EAF1B1;
+  --color-card: #FFFFFF;
+
+  --color-text: #102F15;
+  --color-text-light: #5F7050;
+  --color-border: #C8D9B8;
+
+  /* Footer - Light Mode */
+  --footer-background: #102F15;
+  --footer-heading: #EAF1B1;
+  --footer-text: #EBFADC;
+  --footer-border: #728C5A;
+
+  --color-success: #3F7045;
+  --color-danger: #A33A3A;
+
+  --shadow-sm: 0 4px 12px rgba(16, 47, 21, 0.08);
+  --shadow-md: 0 10px 30px rgba(16, 47, 21, 0.12);
+  --shadow-lg: 0 20px 50px rgba(16, 47, 21, 0.16);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 72px;
+
+  --transition: 0.3s ease;
+}
+
+
+/* =========================
+   DARK THEME
+========================= */
+
+[data-theme="dark"] {
+  --color-background: #102F15;
+  --color-surface: #193D1D;
+  --color-card: #1C4722;
+
+  --color-text: #EBFADC;
+  --color-text-light: #D5E2C8;
+
+  --color-border: #4E704F;
+
+  --color-primary: #EAF1B1;
+  --color-primary-dark: #D8E58C;
+
+  --color-secondary: #9CAF7D;
+
+  --color-success: #9FD18B;
+  --color-danger: #FF9B9B;
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+
+  /* Footer - Dark Mode */
+  --footer-background: #0A1F0D;
+  --footer-heading: #EAF1B1;
+  --footer-text: #EBFADC;
+  --footer-border: #3D6340;
+
+  --color-success: #9FD18B;
+  --color-danger: #FF9B9B;
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+}
